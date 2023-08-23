@@ -71,3 +71,33 @@ After successfully connecting to the database, one can now start writing sql que
     FROM orders;
 ```
 For more examples on how the queries and output look like in python, check out my [Basic_SQL](https://github.com/Ratafar22/SQL-Analysis-of-Parch-and-Posey/blob/main/Basic_SQL_Parch_Posey.ipynb)
+
+
+2. **Aggregations funtions** : These functions are used to summarise data. They include SUM, COUNT, MIN, MAX, AVG, GROUPBY, HAVING etc
+
+Examples:
+
+```sql
+--Find the mean (AVERAGE) amount spent per order on each paper type, as well as the mean amount of each paper type purchased per order. Your final answer should have 6 values - one for each paper type for the average number of sales, as well as the average amount.
+
+SELECT	AVG(standard_amt_usd) Avg_standard_amt,
+		AVG(gloss_amt_usd) Avg_gloss_amt,
+       	AVG(poster_amt_usd) Avg_poster_amt,
+        AVG(standard_qty) Avg_standard_qty,
+		AVG(gloss_qty) Avg_gloss_qty,
+       	AVG(poster_qty) Avg_poster_qty
+FROM orders;
+
+--  Find the total sales in usd for each account.
+
+SELECT a.name, SUM(o.total_amt_usd) total_sales_usd
+FROM accounts a
+JOIN orders o 
+ON o.account_id = a.id
+GROUP BY a.name;
+```
+Find more examples of queries in which I used other Aggregation functions [SQl_Aggregations](https://github.com/Ratafar22/SQL-Analysis-of-Parch-and-Posey/blob/main/Aggregations.sql)
+
+
+3. **JOINS:**  
+4. 
