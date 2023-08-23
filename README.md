@@ -173,7 +173,7 @@ FROM events
 GROUP BY channel
 ORDER BY 2 DESC;
 ```
-Go to [Subqueries&CTEs](https://github.com/Ratafar22/SQL-Analysis-of-Parch-and-Posey/blob/main/Subqueries_%26_Temporary_Tables.sql) to find more of my queries on Subqueries and CTEs
+Go to [Subqueries&CTEs](https://github.com/Ratafar22/SQL-Analysis-of-Parch-and-Posey/blob/main/Subqueries_%26_Temporary_Tables.sql) to see more of my queries on Subqueries and CTEs
 
 
 6. **Windows Functions:** It allows one to do a comparison between rows without doing any join. It can be used to calculate the running total of a column. It uses syntax such as *OVER*, *PARTITION* and *ORDER BY*, *RANK*, *ROW NUMBER*, *LOD* and *LAG*. Examples of how Window functions work are shown below
@@ -195,3 +195,5 @@ FROM orders;
 ```
 Check out other sample window functions queries [here](https://github.com/Ratafar22/SQL-Analysis-of-Parch-and-Posey/blob/main/Window_Functions.sql)
 
+#
+Thanks for going through my analysis, I hope you do find it useful. You can connect with me on [LinkedIn](https://www.linkedin.com/in/rukayatrauf/) and [Twitter](https://twitter.com/ratafar13)
