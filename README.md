@@ -196,4 +196,4 @@ FROM orders;
 Check out other sample window functions queries [here](https://github.com/Ratafar22/SQL-Analysis-of-Parch-and-Posey/blob/main/Window_Functions.sql)
 
 #
-Thanks for going through my analysis, I hope you do find it useful. You can connect with me on [LinkedIn](https://www.linkedin.com/in/rukayatrauf/) and [Twitter](https://twitter.com/ratafar13)
+Thanks for going through my analysis, I hope you do find it useful. You can connect with me on [LinkedIn](www.linkedin.com/in/rukayatrauf) and [Twitter](https://twitter.com/ratafar13)
