@@ -176,7 +176,7 @@ ORDER BY 2 DESC;
 Go to [Subqueries&CTEs](https://github.com/Ratafar22/SQL-Analysis-of-Parch-and-Posey/blob/main/Subqueries_%26_Temporary_Tables.sql) to see more of my queries on Subqueries and CTEs
 
 
-6. **Windows Functions:** It allows one to do a comparison between rows without doing any join. It can be used to calculate the running total of a column. It uses syntax such as *OVER*, *PARTITION* and *ORDER BY*, *RANK*, *ROW NUMBER*, *LOD* and *LAG*. Examples of how Window functions work are shown below
+6. **Windows Functions:** It allows one to do a comparison between rows without doing any join. It can be used to calculate the running total of a column. It uses syntax such as *OVER*, *PARTITION* and *ORDER BY*, *RANK*, *ROW NUMBER*, *LEAD* and *LAG*. Examples of how Window functions work are shown below
 
 ```sql
 -- Create a running total of standard_amt_usd (in the orders table) over order time with no date truncation.
