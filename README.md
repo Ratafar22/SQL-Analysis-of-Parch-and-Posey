@@ -27,7 +27,7 @@ These includes using syntax such as SELECT, FROM, WHERE, ORDERBY, IN, BETWEEN, L
 
 *Some examples are shown below*
 
- ```sql
+ ```mysql
 -- select only the id, account_id, and occurred_at columns for all orders in the orders table. show the first 10 rows
 
 SELECT id, account_id, occurred_at 
@@ -35,9 +35,9 @@ FROM orders
 LIMIT 10;
 ```
 
-```sql
+```mysql
 -- Use the web_events table to find all information regarding individuals who were contacted via the organic or adwords channels, 
-and started their account at any point in 2016, sorted from newest to oldest.
+--and started their account at any point in 2016, sorted from newest to oldest.
 
 SELECT *
 FROM web_events
