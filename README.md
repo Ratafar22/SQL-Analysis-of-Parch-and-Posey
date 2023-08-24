@@ -27,7 +27,7 @@ These includes using syntax such as SELECT, FROM, WHERE, ORDERBY, IN, BETWEEN, L
 
 *Some examples are shown below*
 
- ``` sql
+ ```sql
 -- select only the id, account_id, and occurred_at columns for all orders in the orders table. show the first 10 rows
 
 SELECT id, account_id, occurred_at 
